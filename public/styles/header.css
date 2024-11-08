@@ -159,6 +159,7 @@ header {
             font-size: 14px;
             color: var(--header-svg-color-primary);
             fill: var(--header-svg-color-primary);
+            cursor: pointer;
             & a {
               height: 100%;
               display: flex;
