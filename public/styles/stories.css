@@ -1,0 +1,55 @@
+/* css file for the story circles  */
+.stories {
+  width: 100%;
+  height: 151px;
+  direction: rtl;
+
+  /* swiper for story part */
+
+  .swiper-slide {
+    display: flex;
+    align-items: center;
+    width: auto;
+
+    .story-container {
+      margin-right: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 80px;
+      height: auto;
+      height: 100%;
+      cursor: pointer;
+    }
+
+    .story-item {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      overflow: hidden;
+      border: 2px solid #ff5a5f;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 5px;
+    }
+    /* story image */
+    .story-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+    /* story info text above image */
+    .story-text {
+      font-size: 10px;
+      color: var(--normal-text-color);
+      text-align: center;
+      white-space: nowrap;
+      word-wrap: break-word;
+      white-space: normal;
+      width: 90px;
+    }
+  }
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Update Center</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        height: 100%;
+        font-family: "Arial", sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #464646fd;
+      }
+      .container {
+        text-align: center;
+        background-color: #cec8c8;
+        padding: 40px 60px;
+        border-radius: 15px;
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+        max-width: 500px;
+        width: 100%;
+      }
+
+      h1 {
+        font-size: 28px;
+        margin-bottom: 10px;
+        color: #c70a0a;
+      }
+
+      h2 {
+        font-size: 20px;
+        color: #007bff;
+        margin-bottom: 15px;
+      }
+
+      p {
+        font-size: 16px;
+        color: #555;
+        line-height: 1.6;
+      }
+
+      .changes {
+        font-style: italic;
+        color: #888;
+      }
+
+      .warning {
+        color: red;
+        font-size: 14px;
+        margin-top: 20px;
+      }
+
+      button {
+        padding: 12px 25px;
+        font-size: 16px;
+        background-color: #ff0000;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 20px;
+        transition: background-color 0.3s ease;
+      }
+
+      button:hover {
+        background-color: #b30e0e;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Update Center</h1>
+      <p>
+        Easily update this project to the latest version with a single click!
+      </p>
+
+      <h2>What's New:</h2>
+      <p class="changes" id="changedtxt">No new updates available</p>
+
+      <p class="warning">
+        NOTE: This requires Node.js and an active network connection.
+      </p>
+      <p class="warning">Any changes made to HTML/CSS files will be gone ⚠️</p>
+
+      <button onclick="checkForUpdates()">Update Now</button>
+    </div>
+
+    <script>
+      function checkForUpdates() {
+        alert("Checking for updates...");
+      }
+    </script>
+  </body>
+</html>

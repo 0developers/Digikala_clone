@@ -1,0 +1,36 @@
+/* all variables for modifying things quickly */
+:root {
+  --wrapper-width: 100%;
+  --header-top-banner-height: 60px;
+  --header-main-height: 70px;
+  --header-main-right-width: 60%;
+  --header-search-bg-color: #f0f0f1;
+  --header-search-border-radius: 8px;
+  --header-search-placeholder-text-color : #81858b;
+  --header-login-btn-border-color : #e0e0e2;
+  --header-svg-color-primary : #3f4064;
+  --x-line-color : #e0e0e2;
+  --bg-header-main : #ffffff;
+  --bg-wrapper : #ffffff;
+  --normal-text-color : #3a3a3a;
+}
+/* fonts here */
+@font-face {
+  font-family: digiFont;
+  src: url("../fonts/IRANYekanWeb-Medium.eot");
+  src: url("../fonts/IRANYekanWeb-Medium.ttf");
+  src: url("../fonts/IRANYekanWeb-Medium.woff");
+  src: url("../fonts/IRANYekanWeb-Medium.woff2");
+}
+/* these will apply to all elements  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: digiFont;
+}
+.wrapper {
+  width: var(--wrapper-width);
+  background-color: var(--bg-wrapper);
+  height: 100vh;
+}

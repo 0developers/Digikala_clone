@@ -1,0 +1,19 @@
+/* add css sources here */
+/* 
+
+    Sett : color settings and some main style settings will be here 
+    * if you want to change the theme or colors quickly , modify this file .
+
+    Header : styles for header 
+
+    stories : story swiper part in main page
+    
+
+
+*/
+
+@import "./sett.css";
+@import "./header.css";
+@import "./stories.css";
+@import "../../node_modules/swiper/swiper-bundle.css";
+
