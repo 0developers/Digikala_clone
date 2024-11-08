@@ -493,7 +493,9 @@
     </div>
   </body>
   <script src="./node_modules/swiper/swiper-bundle.js"></script>
-  <script src="./public/js/darkmode.js"></script>
+  <!-- the above swiper won't work on git pages , that's why i've added the above lib -->
+   <!-- if you had any issues trying on local , please remove the line below -->
+   <script src="./public/swiper/swiper-bundle.js"></script>
   <script>
     var darkMode = false;
     var swiper = new Swiper(".mySwiper", {
