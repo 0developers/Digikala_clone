@@ -15,7 +15,7 @@
 @import "./sett.css";
 @import "./header.css";
 @import "./stories.css";
-@import "../../node_modules/swiper/swiper-bundle.css";
+/* @import "../../node_modules/swiper/swiper-bundle.css"; */
 /* since swiper lib won't work on git , i will add another import to fix the swiper lib issue */
 @import "../swiper/swiper-bundle.css";
 
